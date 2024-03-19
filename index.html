@@ -5,28 +5,69 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Annika's Website</title>
     <link rel="stylesheet" href = "style.css">
-    <link href='https://fonts.googleapis.com/css?family=Playfair Display' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Berkshire Swash' rel='stylesheet'>
     
 </head> 
 </head>
 <body>
+    <br>
+    <div class = "center">
+        <a class = "logo"> ˗ˏˋ ♡ ˎˊ˗ Annika Wong ˗ˏˋ ♡ ˎˊ˗ </a>
+
+    </div>
+
+
+    <br>
+    <div id = "added_text"></div>
+    <div id = "intro_buttons"></div>
+    <img class = "img_center" id = "looking_up" src = "looking up.png" alt = "Questioning Stick Figure" height = 250>
+
+    <div class = "intro_text">
+        <p>Hey! Thanks for visiting my page. I am currently a student at the University of Maryland studying computer science!</p>
+        <p>I just recruited this little guy to help me guide you through my website.</p>
+        <p>He's been dozing off recently... tap him to show you around!</p>
+    </div>
+
+    <!--<div class = "header">
+        <a class = "button" href="about.html">About Me</a>
+        <a class = "button" href="projects.html">Projects/Work</a>
+    </div> -->
+
     
-    <div class="Header">
-        <h1>Annika Wong</h1>
+
+   
+
+    
+
+    
+
+    
+
+    <!--
+        <img src = "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRJT-aW_wzcDDBeMuL44zxU6x76J15yhDJH_QJCvbYXRJ7Hdkdd">
+    <div class = "img_center">
+        <img class = "img_center"src = "https://thumb.ac-illust.com/7a/7ace6887fa230c744cd85d69a44edbf4_t.jpeg">
+    </div>
+
+    
+
+
+    <img src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5DKJHe20u2C63YW22AeCQSGmHcBmIkamDAIAScjP97SitoVU8LNu06lIrEkzLblfu_g0&usqp=CAU">
+    <img src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMQg3FlsxvJlqLGDQnUaE32i1W0lAX4n0lDw&usqp=CAU">
+    <img src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ77cT_U3CvqvmpyVbepMoGIXq_-ckrL3F_0g&usqp=CAU">
+    <img src = " data:image/png;base64,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">
+
+    <div class="about">
         <h3>Computer Science Student at the University of Maryland</h3>
         <p>Hello, welcome to my website! Hope you have a fun visit here.</p>
         <p>Click on the tabs below to get to other pages! I'll just be working while you explore.</p>
-    </div>
+    </div> -->
 
-    <div> 
-        <a class = "button" href="about.html">About Me</a>
-        <a class = "button" href="projects.html">Projects</a>
-        <img class = "center" src = "https://img.freepik.com/premium-vector/man-computer_494525-742.jpg" alt = "Stick figure at computer" height = 250>
-    </div>
+    
 
-    <hr>
+   <!-- <hr>
     <div class = "todo">
-        <!--<input> takes input from the user-->
+        <input> takes input from the user
         <h3 id = "words">To-Do List</h3>
         <input id = "inputs">
         <button id = "submit">Submit</button>
@@ -38,10 +79,10 @@
     <h1>Name Remember</h1>
     <p><b id = "name"></b></p>
     <input type= "text" id = "nameInput">
-    <button id = "submit_name">change</button>
+    <button id = "submit_name">change</button> -->
     
     
     <!--load the html first then the js (user can see html while they wait for the js)-->
-    <script src="main.js"></script>
+    <script src="main1.js"></script>
 </body>
 </html>

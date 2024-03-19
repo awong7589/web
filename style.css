@@ -1,28 +1,75 @@
 /*looking for a class named header*/
+
+/*#dec3c3 • #e7d3d3 • #f0e4e4 • #f9f4f4 • #ffffff*/
 body {
     background-color:white;
 }
-.Header {
-    background-color: #F9E0DB;
-    padding: 10px;
-    text-align: center;
-    border-radius: 50px;
-    box-shadow: 0px 5px 20px #E7B5AC;
-    font-family: 'Playfair Display';
+#intro_buttons {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-evenly;
 }
-/*targets elements? not text*/
-.Header * {
-    color:rgb(0, 0, 0)
+
+.center {
+    width: 100%;
+    text-align: center;
+}
+
+.logo {
+    font-family: 'Berkshire Swash';
+    font-size: 20px;
+    color:  #d3adad;
+    text-shadow: 1px 1px 0px #dec3c3, 4px 4px 0px #f0e4e4 ;
+    background-color: #f9f4f4;
+    padding: 20px;
+    text-align: center;
+    border-radius: 40px;
+    box-shadow: 0px 5px 20px #E7B5AC;
+    justify-content: space-around;
 }
 
 .button {
-    text-align: center;
-    background-color: #869f77;
+    margin: 10px;
+    color: #f0e4e4;
     padding: 10px;
-    border-radius: 30px;
-    box-shadow: 0px 5px 20px #588061;
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px #dec3c3; 
+    background-color: #d3adad;
 }
 
+.intro_text {
+    margin: 30px;
+    background-color: #f9f4f4;
+    padding: 20px;
+    text-align: center;
+    border-radius: 40px;
+    box-shadow: 0px 5px 20px #E7B5AC;
+    justify-content: space-around;
+}
+
+p {
+    text-align: center;
+}
+
+.img_center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    
+}
+
+.hovers {
+    justify-content: space-evenly;
+    text-align: center;
+    
+}
+
+.hovers h1 {
+    display: inline;
+    padding-bottom: 10px;
+    justify-content: space-evenly;
+}
 /*used to select header and button */
 .header.button {
     color: blue;
@@ -33,13 +80,6 @@ body {
     padding: 10px;
     border-radius: 30px;
 }
-
-.center {
-    padding: 20px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
 
 .projects{
     background-color: #E7B5AC;
